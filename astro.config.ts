@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     client: "./",
   },
-  output: "server",
+
   integrations: [qwikdev()],
   adapter: vercel(),
 });
